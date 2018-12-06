@@ -56,10 +56,10 @@ body {
   }
 .curtain .closebtn {
     position: absolute;
-    top:45%;
+    top:35%;
     left: 33%;
-    font-size: 13px;
-    opacity:0.3;
+    font-size: 16px;
+    opacity:1;
 }
 .curtain {
     height: 0%;
