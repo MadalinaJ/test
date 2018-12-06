@@ -286,14 +286,14 @@ img {
 .next {
   right: 9%;
   border-radius: 3px 0 0 3px;
-  cursor: url('C:/Users/Claudia/Documents/Docs in Aaatom/1/Css/cursorN.png'), pointer;
+  cursor: url('https://MadalinaJ.github.io/test/Css/cursorN.png'), pointer;
 
 }
 
 .prev {
   margin-left: -14%;
   border-radius: 3px 0 0 3px;
-  cursor: url('C:/Users/Claudia/Documents/Docs in Aaatom/1/Css/cursorP.png'), pointer;
+  cursor: url('https://MadalinaJ.github.io/test/Css/cursorP.png'), pointer;
 
 }
 
