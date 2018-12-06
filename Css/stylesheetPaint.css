@@ -60,11 +60,12 @@ body {
 
 }
 .curtain .closebtn {
-    position: absolute;
-    top:45%;
-    left: 33%;
-    font-size: 13px;
-    opacity:0.3;
+     display:block;
+      position: fixed;
+      top:14%;
+      margin-left: 5.9%;
+      opacity: 0.5;
+      font-size: 20px;
 }
 .curtain {
     height: 0%;
