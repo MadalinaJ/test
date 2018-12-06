@@ -278,14 +278,14 @@ img {
 .next {
   right: 12%;
   border-radius: 3px 0 0 3px;
-  cursor: url('https://MadalinaJ.github.io/test/Css/cursorN.png'), pointer;
+  cursor: pointer;
 
 }
 
 .prev {
   margin-left: -15%;
   border-radius: 3px 0 0 3px;
-  cursor: url('https://MadalinaJ.github.io/test/Css/cursorP.png'), pointer;
+  cursor: pointer;
 
 }
 
