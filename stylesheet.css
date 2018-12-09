@@ -159,7 +159,7 @@ img {
   position: fixed;
   z-index: 1;
   padding-top: 100px;
-  left: 11%;
+  left: 14%;
   top: 0;
   width: 89%;
   height: 100%;
@@ -175,11 +175,12 @@ img {
   padding: 0;
   width: 90%;
   max-width: 1100px;
+  height: auto;
 
 }
 /* The Close Button */
 .close {
-  color: white;
+  color: grey;
   position: absolute;
   top: 10px;
   right: 25px;
@@ -195,33 +196,45 @@ img {
 
 .mySlides {
   display: none;
-  filter: grayscale(0);
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
 }
-.mySlides:hover{
-  filter: grayscale(1);
+
 }
-.cursor {
-  cursor: pointer;
-}
-#myModal:hover .overlay {
+#myModal:hover  {
   top: 80%;
   width: 4%;
   left: 117%;
 
+
+
 }
-.overlay {
+/*.overlay {
   position: absolute;
-  top: 80%;
-  bottom: 9%;
-  width: 4%;
-  left: 117%;
+  top: 15%;
+  width: 30%;
+  left: 5%;
   overflow: hidden;
   height: 15%;
-  transition: .5s ease;
-  cursor: pointer;
   opacity: 0.8;
+  background-color: pink;
+
+}*/
+
+.text2 {
+  position: fixed;
+  top: 3%;
+  left: 52%;
+  text-align: center;
+  color: red;
+  font-family: "Lato" sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  background-color: blue;
 }
-.text {
+/*.text {
+
   position: absolute;
   top: 80%;
   left: 23%;
@@ -235,45 +248,46 @@ img {
   font-weight: bold;
   font-size: 11px;
   letter-spacing: 2px;
-}
+
+}*/
 .Side-buttons {
   display:  block;
   position: absolute;
-  margin-top: 14%;
-  margin-left: 93%;
+  margin-top: 35%;
+  margin-left: 12%;
   max-width: 14%;
   max-height: 20%;
+  cursor: pointer;
+  z-index: 1;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
   display: block;
-  width: 9%;
+  width: 40%;
   height: 80%;
-  cursor: pointer;
-  position: fixed;
-  top: 22%;
-  margin-top: -100px;
-  margin-left: -4%;
+  position: absolute;
+  top: 14%;
   user-select: none;
   -webkit-user-select: none;
-
+  background-color: red;
+  opacity: 0.5;
 
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 12%;
+  margin-left: 80%;
   border-radius: 3px 0 0 3px;
-  cursor: url('https://MadalinaJ.github.io/test/Css/cursorN.png'), auto;
+  cursor:  pointer;
 
 }
 
 .prev {
-  margin-left: -15%;
+  margin-left: -20%;
   border-radius: 3px 0 0 3px;
-  cursor: url('https://MadalinaJ.github.io/test/Css/cursorP.png'), auto;
+  cursor: pointer;
 
 }
 
