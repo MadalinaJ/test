@@ -172,10 +172,6 @@ img {
   height: auto;
 
 }
-.modal-content:hover {
-  filter: grayscale(1);
- 
-}
 
 .close {
   color: grey;
