@@ -338,12 +338,16 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
+.fb-like {
+  position: absolute;
+  bottom: 1%;
+    
+}
 #footer {
   position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
+ left: 0;
+ bottom: 0;
+ width: 100%;
 
 color: white;
 text-align: center;
