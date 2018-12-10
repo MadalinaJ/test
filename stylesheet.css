@@ -341,9 +341,9 @@ img.hover-shadow {
 .like {
     display:block;
     position:absolute;
-    width: 450px;
+   
     margin-top:75%;
-    z-index:1; 
+    z-index:2; 
 }
 #footer {
   position: fixed;
