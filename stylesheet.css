@@ -221,20 +221,14 @@ img {
 
 .next {
   margin-left:78%;
-  border-radius: 3px 0 0 3px;
   cursor:  pointer;
 }
 
 .prev {
   margin-left: -20%;
-  border-radius: 3px 0 0 3px;
   cursor: pointer;
 }
 
-.prev:hover,
-.next:hover {
-
-}
 
 img {
   margin-bottom: -4px;
