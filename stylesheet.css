@@ -341,7 +341,10 @@ img.hover-shadow {
 #fb-root {
     display:block;
   position: relative;
+    width: 10%;
+    height: 5%;
   margin-top: 50%;
+    background-color: red:
     
 }
 #footer {
