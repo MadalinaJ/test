@@ -341,7 +341,7 @@ img.hover-shadow {
 .fb-share-button {
     display:block;
   position: absolute;
-  bottom: 1%;
+  top: 80%;
     
 }
 #footer {
