@@ -202,8 +202,8 @@ img {
 .Side-buttons {
   display:  block;
   position: absolute;
-  margin-top: 35%;
-  margin-left: 12%;
+  margin-top:47%;
+  margin-left: 1%;
   max-width: 14%;
   max-height: 20%;
   cursor: pointer;
@@ -249,7 +249,7 @@ img {
   position:absolute;
   text-align: center;
   margin-top: 10px;
-  margin-left: 5%;
+  margin-left: 72%;
   font-family: sans-serif;
   font-size: 12px;
   background-color: white;
