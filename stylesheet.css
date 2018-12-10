@@ -278,8 +278,8 @@ img.hover-shadow {
     display:block;
     position:absolute;
     margin-left: 1%;
-    margin-top:45%;
-    z-index:3; 
+    margin-top:30%;
+    z-index:1; 
 }
 #footer {
   position: fixed;
