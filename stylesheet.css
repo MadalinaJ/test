@@ -154,7 +154,7 @@ img {
   position: fixed;
   z-index: 1;
   padding-top: 100px;
-  left: 16%;
+  left: 14%;
   top: 0;
   width: 89%;
   height: 100%;
@@ -186,7 +186,7 @@ img {
   font-weight: bold;
 }
 .close:hover,
-.close:focus { 
+.close:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
@@ -200,14 +200,15 @@ img {
 }
 
 .Side-buttons {
-  display:  block;
-  position: absolute;
-  margin-top:40%;
-  margin-left: 1%;
-  max-width: 14%;
-  max-height: 20%;
+  display:block;
+  position: sticky;
+  margin-top:-6%;
+  margin-left: 40%;
+  max-width: 10%;
+  max-height: 9%;
   cursor: pointer;
-  z-index: 1;
+  background-color: gray;
+
 }
 
 .prev,
@@ -248,7 +249,7 @@ img {
   display: block;
   position:absolute;
   text-align: center;
-  margin-top: 10px;
+  margin-top: -2%;
   margin-left: 72%;
   font-family: sans-serif;
   font-size: 12px;
@@ -273,13 +274,11 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
 .like {
     display:block;
     position:absolute;
-    margin-left: 1%;
-    margin-top:30%;
-    z-index:1; 
+    margin-top:75%;
+    z-index:3;
 }
 #footer {
   position: fixed;
