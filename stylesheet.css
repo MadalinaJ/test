@@ -341,10 +341,9 @@ img.hover-shadow {
 .like {
     display:block;
   position: relative;
-    width: 450px;
-   
-  margin-top: 50%;
-    background-color: red:
+  width: 450px;
+  margin-top:75%;
+ z-index: 1;
     
 }
 #footer {
