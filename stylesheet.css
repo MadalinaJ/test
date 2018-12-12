@@ -89,7 +89,7 @@ body {
     font-family: "Lato" sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 30px;
     margin-left: 18px;
 }
@@ -97,7 +97,7 @@ body {
 .curtain a {
     padding: 3px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-family: "Bethany Script" sans-serif;
     color: black;
     display: block;
