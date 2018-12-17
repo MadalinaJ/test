@@ -19,7 +19,6 @@ body {
 #bg {position: fixed;
     top: 0;
     left: 0;
-/* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
 }
@@ -36,17 +35,6 @@ body {
           color: black;
           margin-left: 1.7%;
 }
-/*#header { top: 2%;
-        position: fixed;
-        display: block;
-        width: 3%;
-        font-family: "Bakersfield" sans-serif;
-        font-size: 60px;
-        font-weight: bold;
-        text-align: center;
-        color: black;
-        margin-left: 5%;
-}*/
 
 .curtain-btn {
       display:block;
