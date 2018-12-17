@@ -11,16 +11,10 @@ padding: 0;
   src:url(C:\Users\Claudia\Documents\Docs in Aaatom\1\bakersfield.zip\Bakersfield Light.ttf);
 
 }
-@font-face {
-  font-family: "Mafakanev";
-  src:url(C:\Users\Claudia\Documents\Docs in Aaatom\1\bakersfield.zip\Mafakanev.otf);
-
-}
-
 body {
 
     margin: 0;
-    font-family: "Bakersfield";
+    font-family: "bakersfield";
 }
 #bg {position: fixed;
     top: 0;
@@ -30,10 +24,19 @@ body {
     min-height: 100%;
 }
 
-
-
-
-#header { top: 2%;
+#header {
+          top: 2%;
+          position: fixed;
+          display: block;
+          width: 3%;
+          font-family: "Bakersfield" sans-serif;
+          font-size: 60px;
+          font-weight: bold;
+          text-align: center;
+          color: black;
+          margin-left: 1.7%;
+}
+/*#header { top: 2%;
         position: fixed;
         display: block;
         width: 3%;
@@ -43,13 +46,13 @@ body {
         text-align: center;
         color: black;
         margin-left: 5%;
-}
+}*/
 
 .curtain-btn {
       display:block;
       position: fixed;
       top:14%;
-      margin-left: 5.9%;
+      margin-left: 2.6%;
       opacity: 0.5;
       font-size: 20px;
 }
@@ -61,18 +64,18 @@ body {
 }
 .curtain .closebtn {
     position: absolute;
-    top:35%;
-    left: 33%;
-    font-size: 16px;
-    opacity:1;
+    top:45%;
+    left: 21.8%;
+    font-size: 15px;
+    opacity:0.6;
 }
 .curtain {
     height: 0%;
-    width: 15%;
+    width: 12%;
     position: fixed;
     z-index: 1;
     top: 14%;
-    left: 1%;
+    left: 0;
     overflow-y: hidden;
     transition: 0.5s;
     font-family: "Lato" sans-serif;
@@ -86,26 +89,25 @@ body {
     font-family: "Lato" sans-serif;
     font-weight: bold;
     text-align: center;
+    font-size: 13px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 18px;
 }
 
 .curtain a {
     padding: 3px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Bethany Script" sans-serif;
     color: black;
     display: block;
     transition: 0.3s;
 }
-
 .curtain a:hover, .curtain a:focus {
-    color: black;
-    background: rgba(181, 177, 177, 0.25);
-    opacity: 0.5;
+  color: black;
+  background: rgba(181, 177, 177, 0.25);
+  opacity: 0.8;
 }
-
 @media screen and (max-height: 250px) {
   .curtain {overflow-y: auto;}
   .curtain a {font-size: 20px}
@@ -113,28 +115,14 @@ body {
     font-size: 10px;
     top: 3px;
     left: 100px;
-    text-decoration: none;
-
   }
-  .curtain.closebtn a:hover  {
-  text-decoration: none;
-  background-color: white;
-  }
-}
-.closebtn {
-    width: 10%;
-   margin-left: 0px;
-    margin-top: -60px;
-    color: black;
-
 }
 
 .row { margin-left: 19%;
       margin-top: 0%;
       padding: 4px;
-     filter: grayscale(1);
+     filter: grayscale(0.5);
       width: 80%;
-
 
 }
 
@@ -158,21 +146,23 @@ body {
 }
 img {
   margin-bottom: -4px;
+
 }
 .photo {
     position: relative;
     display: block;
     width: 100%;
     height: auto;
+    filter: grayscale(1);
+
 }
-
 .photo:hover {
-  opacity: 0.7; /*just text no backgr color*/
-
+  opacity: 0.8; /*just text no backgr color*/
 }
 .photo:hover .middle {
-  opacity:0.1;
+  opacity:0.3;
 }
+
 /* The Modal (background) */
 .modal {
   display: none;
