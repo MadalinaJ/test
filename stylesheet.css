@@ -210,14 +210,12 @@ img {
 }
 
 .Side-buttons {
-  display:block;
-  position: sticky;
-  margin-top:-6%;
-  margin-left: 40%;
-  max-width: 10%;
-  max-height: 9%;
-  cursor: pointer;
-
+  display:  block;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 93%;
+  max-width: 14%;
+  max-height: 20%;
 }
 
 .prev,
