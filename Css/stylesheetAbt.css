@@ -139,6 +139,6 @@ body {
   color: black;
   text-align: justify;
   font-weight: bold;
-    overflow: scroll;
+    overflow-y: scroll;
 
 }
